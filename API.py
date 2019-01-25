@@ -58,7 +58,8 @@ def read_temp():
 while True:
     print(read_temp())
     mytemp = read_temp()
-    loggit = "UPDATE temperature SET Value=%s WHERE ID=1"
-    cursor.execute(loggit, (mytemp))
+    logdata = ('INSERT INTO track_data (sensor, value) '
+                '    VALUES ("temperature", %s)')
+    cursor.execute(logdata, (mytemp))
     conn.commit()
-    time.sleep(5)
+    time.sleep(5) 
