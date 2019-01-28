@@ -1,5 +1,5 @@
 # Blockchain_Pi
-<<<<<<< HEAD
+
 Seting up Raspberry Pi with Blockchain connection
 
 ## Hardware setup
@@ -32,6 +32,8 @@ The LED from the vibration sensor is blinking, if there is some vibration.
 
 ## Software setup
 First of all install IPFS on your machine: https://docs.ipfs.io/introduction/install/ 
+One example hash from the project is: QmPP9Co2F7pz5xdybeRAUzcb3ED4pgBusvTnzdfNhMHUVU
+You can find this also at originstamp: https://originstamp.org/s/8b18e4989ab800e96d7e3ae6de9fa62906a91e68d5bccd42a0e951d9a22cceea
 
 After this, the following package is needed for running the **API**
 
@@ -56,7 +58,3 @@ python Update.py
 ```
 
 
-
-=======
-Setting up Raspberry Pi with Blockchain connection
->>>>>>> 81ea48f0e48a82b9105225462877c758e9cb3b84
