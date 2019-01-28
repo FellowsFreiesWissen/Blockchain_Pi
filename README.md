@@ -1,4 +1,5 @@
 # Blockchain_Pi
+<<<<<<< HEAD
 Seting up Raspberry Pi with Blockchain connection
 
 ## Hardware setup
@@ -56,3 +57,6 @@ python Update.py
 
 
 
+=======
+Setting up Raspberry Pi with Blockchain connection
+>>>>>>> 81ea48f0e48a82b9105225462877c758e9cb3b84
