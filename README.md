@@ -3,7 +3,7 @@
 Setting up Raspberry Pi with a blockchain connection
 
 ## Hardware setup
-```
+
 We will describe our approach with a defined hardware list (see below). 
 Everyone who is interested can change these component to test different configurations 
 and other use cases, for example, light emission or distance measuring. 
@@ -29,13 +29,12 @@ Once all hardware components are available they must be connected.
 We suggest to use a breakout board, for example, a general-purpose input/output (GPIO) board. 
 You can find the GPIO layout that we used in the "Wiring" folder.
 
-![Wiring Layout with Fritzing]
-(https://raw.githubusercontent.com/FellowsFreiesWissen/Blockchain_Pi/master/Wiring/Layout_GPIO_Steckplatine.jpg)
+![Wiring Layout with Fritzing](/Wiring/Layout_GPIO_Steckplatine.jpg)
 
 After connecting all components, the Raspberry can now be connected to power. 
 All sensor lights/LEDs should be on. 
 If there is some vibration, the LED from the vibration sensor is blinking.
-```
+
 
 ## Software setup
 First of all install IPFS on your machine: https://docs.ipfs.io/introduction/install/ 
