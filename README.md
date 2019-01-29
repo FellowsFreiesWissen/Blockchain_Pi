@@ -30,7 +30,7 @@ We suggest to use a breakout board, for example, a general-purpose input/output 
 You can find the GPIO layout that we used in the "Wiring" folder.
 
 ![Wireing Layout with Fritzing]
-(Blockchain_Pi/Wiring/Layout_GPIO_Steckplatine.jpg)
+(https://raw.githubusercontent.com/FellowsFreiesWissen/Blockchain_Pi/master/Wiring/Layout_GPIO_Steckplatine.jpg)
 
 After connecting all components, the Raspberry can now be connected to power. 
 All sensor lights/LEDs should be on. 
