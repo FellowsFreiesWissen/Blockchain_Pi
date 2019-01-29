@@ -5,7 +5,7 @@ Setting up Raspberry Pi with a blockchain connection
 ## Hardware setup
 
 We will describe our approach with a defined hardware list (see below). 
-Everyone who is interested can change these component to test different configurations 
+Everyone who is interested can change these components to test different configurations 
 and other use cases, for example, light emission or distance measuring. 
 All components that we used can be found on, for example, Amazon.
 
@@ -24,12 +24,17 @@ Hardware components:
 - Battery pack (optional)
 
 There are no tools, like for example, a screwdriver, are needed for the whole configuration. 
+The housing has clips to connect with each other, so there are also no tools needed.
 
 Once all hardware components are available they must be connected.
 We suggest to use a breakout board, for example, a general-purpose input/output (GPIO) board. 
 You can find the GPIO layout that we used in the "Wiring" folder.
 
 ![Wiring Layout with Fritzing](/Wiring/Layout_GPIO_Steckplatine.jpg)
+
+We deliberately did not connect the Raspberry in the figure to improve the circuit overview.
+The connection of the Raspberry with the GPIO board is made with a standard plug, 
+so that an incorrect connection is not possible.
 
 After connecting all components, the Raspberry can now be connected to power. 
 All sensor lights/LEDs should be on. 
