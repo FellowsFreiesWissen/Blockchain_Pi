@@ -29,7 +29,7 @@ Once all hardware components are available they must be connected.
 We suggest to use a breakout board, for example, a general-purpose input/output (GPIO) board. 
 You can find the GPIO layout that we used in the "Wiring" folder.
 
-![Wireing Layout with Fritzing]
+![Wiring Layout with Fritzing]
 (https://raw.githubusercontent.com/FellowsFreiesWissen/Blockchain_Pi/master/Wiring/Layout_GPIO_Steckplatine.jpg)
 
 After connecting all components, the Raspberry can now be connected to power. 
