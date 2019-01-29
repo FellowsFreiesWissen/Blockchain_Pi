@@ -4,9 +4,14 @@ Setting up Raspberry Pi with a blockchain connection
 
 ## Hardware setup
 ```
-We will describe our approach with a defined hardware list (see below). Everyone who is interested can change these component to test different configurations and other use cases, for example, light emission or distance measuring. All components that we used can be found on, for example, Amazon.
+We will describe our approach with a defined hardware list (see below). 
+Everyone who is interested can change these component to test different configurations 
+and other use cases, for example, light emission or distance measuring. 
+All components that we used can be found on, for example, Amazon.
 
-The optional components (DC engine and battery pack) are used in our case for creating live results. The Battery pack powers the DC Engine, what is creating vibrations, thermal energy, and power consumption that our sensors are measuring.
+The optional components (DC engine and battery pack) are used in our case for creating live results.
+The Battery pack powers the DC Engine, what is creating vibrations, thermal energy, 
+and power consumption that our sensors are measuring.
 
 Hardware components:
 - Raspberry Pi 3
@@ -20,12 +25,15 @@ Hardware components:
 
 There are no tools, like for example, a screwdriver, are needed for the whole configuration. 
 
-Once all hardware components are available they must be connected. We suggest to use a breakout board, for example, a general-purpose input/output (GPIO) board. You can find the GPIO layout that we used in the "Wiring" folder.
+Once all hardware components are available they must be connected.
+We suggest to use a breakout board, for example, a general-purpose input/output (GPIO) board. 
+You can find the GPIO layout that we used in the "Wiring" folder.
 
 ![Wireing Layout with Fritzing](https://github.com/FellowsFreiesWissen/Blockchain_Pi/blob/master/Wireing/Layout_GPIO_Steckplatine.jpg)
 
-After connecting all components, the Raspberry can now be connected to power. All sensor lights/LEDs should 
-be on. If there is some vibration, the LED from the vibration sensor is blinking.
+After connecting all components, the Raspberry can now be connected to power. 
+All sensor lights/LEDs should be on. 
+If there is some vibration, the LED from the vibration sensor is blinking.
 ```
 
 ## Software setup
