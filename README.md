@@ -28,10 +28,10 @@ The housing has clips to connect with each other, so there are also no tools nee
 
 Once all hardware components are available they must be connected.
 We suggest to use a breakout board, for example, a general-purpose input/output (GPIO) board. 
-You can find the GPIO layout that we used in the "Wiring" folder.
+You can find the GPIO layout for Fritzing that we used in the "Wiring" folder.
 
+## Raspberry Pi Layout
 
-=======
 ![Wiring Layout with Fritzing](/Wiring/Layout_GPIO_Steckplatine.jpg)
 
 
